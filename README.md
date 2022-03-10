@@ -12,11 +12,15 @@ Dtmoney é um aplicação front-end para gestão de custos com entradas, saídas
 * Context API
 
 
+### Autor
+---
 
-### Como entrar e contato comigo 
+<a href="https://augecode.com/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/jacqueline-dev" width="100px;" alt=""/>
+ <br />
+ <sub><b>Jacqueline Ferreira</b></sub></a> <a href="https://augecode.com/" title="Augecode">🚀</a>
 
 
-
-![jacqueline](https://user-images.githubusercontent.com/64090350/157681541-c4aaa9a8-7a19-4e36-a10b-a9e65b83b40e.png)
+Feito com 💜 por Jaqueline Ferreira 👋🏽 Entre em contato!
 
 [![Linkedin](https://img.shields.io/badge/Meu%20Perfil-Linkdin-blueviolet)](https://www.linkedin.com/in/jacqueline-ferreira-a152761a5/)
