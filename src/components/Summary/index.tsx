@@ -1,11 +1,11 @@
 import React, { useContext } from 'react'
+import { Container } from './styles'
+import { useTransactions } from '../../hooks/useTransactions'
+
 import inComeImg from '../../assets/income.svg'
 import outComeImg from '../../assets/outcome.svg'
 import totalImg from '../../assets/total.svg'
-import { useTransactions } from '../../hooks/useTransactions'
 
-
-import { Container } from './styles'
 
 export function Summary() {
   const { transactions } = useTransactions()
@@ -25,7 +25,6 @@ export function Summary() {
    total: 0,
  })
 
-  console.log(transactions)
 
   return (
     <Container>
@@ -42,19 +41,23 @@ export function Summary() {
           </strong>
       </div>
       <div>
+
         <header>
           <p>Saías</p>
           <img src={outComeImg}alt="Saídas" />
         </header>
-        <strong>-
+
+        <strong>
+          -
         {new Intl.NumberFormat('pt-BR', {
                   style: 'currency',
                   currency: 'BRL'
-                }).format(summary.deposits)}
-          
-          {summary.withdraw}</strong>
+                }).format(summary.withdraw)}
+          </strong>
+
       </div>
       <div className="highlight-background">
+
         <header>
           <p>Total</p>
           <img src={totalImg} alt="Total" />
