@@ -2,10 +2,10 @@ import { FormEvent, useState } from 'react'
 import Modal from 'react-modal'
 import { Container, TransactionTypeContainer, RadioBox } from './styles'
 
-
 import incomeImg from '../../assets/income.svg'
 import outcomeImg from '../../assets/outcome.svg'
 import CloseImg from '../../assets/close.svg'
+import { useTransactions } from '../../hooks/useTransactions'
 
 interface NewTransactionModalProps {
   isOpen: boolean
@@ -36,7 +36,7 @@ export function NewTransactionModal({
     setTitle('')
     setAmount(0)
     setCategory('')
-    setType('deposit')
+    setType('deposit')  
     onRequestClose()
   }
 
@@ -82,6 +82,7 @@ export function NewTransactionModal({
             <img src={incomeImg} alt="Entrada" />
             <span>Entrada</span>
           </RadioBox>
+
           <RadioBox
             type="button"
             onClick={() => {
@@ -97,7 +98,7 @@ export function NewTransactionModal({
 
         <input
           placeholder="Categoria"
-          value={category}
+          value={category} 
           onChange={event => setCategory(event.target.value)}
         />
 
@@ -106,7 +107,3 @@ export function NewTransactionModal({
     </Modal>
   )
 }
-function useTransactions(): { createTransaction: any } {
-  throw new Error('Function not implemented.')
-}
-
