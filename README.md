@@ -12,6 +12,12 @@ Dtmoney é um aplicação front-end para gestão de custos com entradas, saídas
 * Context API
 
 
+## Conheça o projeto:
+
+![dtmoney1](https://user-images.githubusercontent.com/64090350/157738228-25a8d996-0f89-4324-9d58-ecfb61a104dc.jpg)
+![dtmoney2](https://user-images.githubusercontent.com/64090350/157738265-97037308-5bce-4d3b-9d07-d8dbcd6a9b98.jpg)
+
+
 ### Autor
 ---
 
